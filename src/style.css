@@ -1,0 +1,39 @@
+* {
+  font-family: "Comme", sans-serif;
+}
+.product-main-container {
+  text-align: center;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 1px 9px 0.1px rgb(206, 206, 206);
+  width: 300px;
+  border: 1px solid rgb(227, 227, 227);
+  margin: 10px;
+}
+.product-card-image {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
+.card-button {
+  padding: 7px;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: burlywood;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
