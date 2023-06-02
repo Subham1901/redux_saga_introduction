@@ -1,9 +1,9 @@
 import { ADDTOCART, productDetails } from "../helper";
-const cartReducer = (cart = [], action) => {
+const cartReducer = (cart = { cartItems: [] }, action) => {
   switch (action.type) {
     case ADDTOCART:
-      console.log(action);
-      return [...cart, action.payload];
+      console.log(cart);
+      return { ...cart, cartItems: [...cart.cartItems, action.payload] };
       break;
     default:
       return cart;

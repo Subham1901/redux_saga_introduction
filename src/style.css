@@ -1,14 +1,28 @@
 * {
+  margin: 0px;
+  padding: 0px;
   font-family: "Comme", sans-serif;
 }
 .product-main-container {
   text-align: center;
 }
+.product {
+  height: 100%;
+  float: left;
+}
 .product-container {
+  float: left;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.product-cart {
+  padding: 2px;
+  float: right;
+  width: 30%;
+  border: 1px solid red;
 }
 .product-card {
   display: flex;
@@ -25,6 +39,9 @@
   object-fit: cover;
   height: 200px;
   width: 200px;
+}
+.clear {
+  clear: both;
 }
 .card-button {
   padding: 7px;
